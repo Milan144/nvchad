@@ -65,6 +65,7 @@ local plugins = {
         "typescript-language-server",
         "eslint-lsp",
         "js-debug-adapter",
+        "gopls",
       }
     }
   },
