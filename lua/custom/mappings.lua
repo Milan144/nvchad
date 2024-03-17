@@ -1,5 +1,15 @@
 local M = {}
 
+M.lazygit = {
+  plugin = true,
+  n = {
+    ["<leader>gg"] = {
+      "<cmd> LazyGit <CR>",
+      "Open LazyGit"
+    },
+  },
+}
+
 M.dap = {
   plugin = true,
   n = {
