@@ -1,14 +1,6 @@
 local M = {}
 
-M.lazygit = {
-  plugin = true,
-  n = {
-    ["<leader>gg"] = {
-      "<cmd> LazyGit <CR>",
-      "Open LazyGit"
-    },
-  },
-}
+vim.keymap.set("n", "<leader>gg", ":LazyGit <cr>")
 
 M.dap = {
   plugin = true,

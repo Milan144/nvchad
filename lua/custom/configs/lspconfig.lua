@@ -34,6 +34,12 @@ lspconfig.pyright.setup({
   filetypes = {"python"},
 })
 
+lspconfig.phpactor.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"php"},
+})
+
 lspconfig.gopls.setup {
   on_attach = on_attach,
   capabilities = capabilities,

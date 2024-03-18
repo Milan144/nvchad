@@ -66,6 +66,8 @@ local plugins = {
         "eslint-lsp",
         "js-debug-adapter",
         "gopls",
+        "phpactor",
+        "phpstan",
       }
     }
   },
@@ -89,6 +91,10 @@ local plugins = {
     dependencies = {
       "nvim-lua/plenary.nvim",
     },
+  },
+  {
+    'wakatime/vim-wakatime',
+    lazy = false,
   },
 }
 return plugins
