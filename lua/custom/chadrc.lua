@@ -8,7 +8,6 @@ M.ui = {
   telescope = { style = "borderless" },
   statusline = {
     theme = "minimal",
-    separator_style = "round",
     overriden_modules = nil,
   },
 }
