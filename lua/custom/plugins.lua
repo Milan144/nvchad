@@ -96,5 +96,12 @@ local plugins = {
     'wakatime/vim-wakatime',
     lazy = false,
   },
+  {
+    "windwp/nvim-ts-autotag",
+    ft = {"javascript", "javascriptreact", "typescript", "typescriptreact", "html","vue"},
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
+  },
 }
 return plugins
