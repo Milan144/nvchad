@@ -3,4 +3,6 @@ require('lint').linters_by_ft = {
   typescript = {'eslint'},
   python = {'mypy', 'ruff'},
   php = {'phpstan'},
+  c = {'cpplint'},
+  cpp = {'cpplint'},
 }
